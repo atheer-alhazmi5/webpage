@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+	
+</head>
+<body onload=display_ct();>
+    <div id="div">
+<header>
+    <h1 id="text">Foodie Blog</h1>
+    
+    <div id="div1">
+       
+            <h3 ID="menue">MENUE</h3>
+     
+        <div id="div2">
+        <span><a href="default.html"> Home </a></span>
+        <span><a href="page2.html"> My Recipes </a></span>
+        <span><a href="cources.html"> Courses </a></span>
+        <span><a href="card page.html"> About </a></span>
+</div>
+    </div>
+</header>
+<main >
+    <section>
+        <article id="1">
+            <figure >
+                <img src="https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-project-master/default/dw20036fa4/images/project/WLPROJ-9515/Valentine-Cupcakes-Piped-Buttercream.jpg"
+                    width="200" height="200" class="oooi">
+                <figcaption class="font3"> Cupcake Class</figcaption>
+            </figure>
+            <hgroup>
+                <h2 > Cupcake decorating class</h2>
+                <h3> Course</h3>
+            </hgroup>
+            <p>in this  you will learn how to work with fondant and butter-cream </br>to create delicious
+                designer toppers. after
+                class you take home fashionable treats.</p>
+        </article>
+        <article  id="2">
+            <figure >
+                <img src="https://www.ambitiouskitchen.com/wp-content/uploads/2019/01/Damn-Good-Paleo-Chocolate-Chunk-Tahini-Cookies-3-2-725x725-1.jpg"
+                    width="250" height="250"class="oooi">
+                <figcaption class="font3"> Chocolate chip cookies </figcaption>
+            </figure>
+            <hgroup>
+                <h2> Chocolate chip cookies recipes </h2>
+                <h3> Recipe </h3>
+            </hgroup>
+            <p>you must try the famous nestle toll house chocolate chips cookies recipe. 
+			</br>it is my all time favorite
+                recipe!</p>
+        </article>
+        </section>
+    </section>
+    <aside >
+        <div >
+            <h2>Popular Recipes</h2>
+            <ul id="fruit">
+                <a href="https://cookieandkate.com/best-quinoa-salad-recipe/"> Quinoa Salad </a>
+                <a href="https://cookieandkate.com/best-quinoa-salad-recipe/"> spicy shrimps taco </a>
+                <a href="https://cookieandkate.com/best-quinoa-salad-recipe/"> banana french toast </a>
+                <a href="https://cookieandkate.com/best-quinoa-salad-recipe/"> carrot cake </a>
+            </ul>
+            </div>
+        <div >
+            <h4>Social Media</h4>
+            <p class="font3">follow me on my social </br>media account..	 there are much more !</p>
+            <a href="https://www.instagram.com/"><img
+                    src="https://i2.wp.com/e7.pngegg.com/pngimages/123/685/png-clipart-encapsulated-postscript-computer-icons-instagram-like-computer-network-text.png"
+                    alt="oo" class="SMlogo" width="250" height="250"  />@foodie.blog.sa</a>
+            <a href="https://twitter.com/?lang=ar"><img
+                    src="https://www.soroptimistinternational.org/wp-content/uploads/2020/03/251-2517877_tweet-twitter-icon-icon-chirrup-icon-icon-twitter-png-format-twitter-logo.jpg" alt="oo" class="SMlogo"
+                    width="250" height="250"/>@foodie.blog.sa</a>
+        </div>
+		<div class="clock">
+     <h7><b>Todays Date</b></h7><br><br>
+        <script type="text/javascript"> 
+        
+            function display_c(){
+            var refresh=1000; // Refresh rate in milli seconds
+            mytime=setTimeout('display_ct()',refresh)
+            }
+            
+            function display_ct() {
+            var x = new Date()
+            document.getElementById('ct').innerHTML = x;
+            display_c();
+             }
+            </script>
+              <span id='ct' ></span>
+            </div>
+    </aside>
+</main>
+
+    </div>
+    </div><div style ="clear:both;">
+    <footer><p><strong> &copy;2020 Foodie Blog</strong></p></footer></div>
+</body>
+</html>

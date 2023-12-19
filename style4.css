@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+ background-image: url('https://images-na.ssl-images-amazon.com/images/I/31lvuwTxF4L._AC_SY355_.jpg');
+  background-repeat:repeat;
+}
+
+#menue {
+    margin-left: 30px;
+    line-height: 30px;
+    color: white;
+	
+}
+
+#div1:hover #menue {
+    color:#E7A1B0;
+    display: flex;
+}
+
+body #div {
+    margin-left: 90px;
+    width: 1200px;
+   height: 500px;
+    margin-right: 20px;
+}
+
+#text{
+    font-size: 60px;
+    text-align: center;
+    line-height: 70px;
+    color:#E7A1B0;
+	 text-shadow:  3px 2px 5px #000, 
+               5px 3px 3px hotpink; 
+	font-style: italic;
+	 font-family: sans-serif;
+	 
+}
+
+#div1 {
+    position: absolute;
+    bottom: 0px;
+}
+
+header div div {
+    display: none;
+}
+
+header div:hover div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(95, 84, 84);
+    position: absolute;
+    bottom: -21px;
+    transform: translate(10%, 30%);
+    width: 10%;
+    left: 30px;
+}
+
+span {
+    line-height: 27px;
+    width: 150px;
+    background-color: rgb(141, 146, 140);
+    border: 1px solid white;
+    color: rgb(226, 190, 31);
+}
+
+span:hover {
+    background-color: rgb(95, 84, 84);
+}
+
+header {
+    margin-top: 40px;
+      width: 1086px;
+    height: 130px;
+    position: relative;
+    background-color: snow;
+	
+	
+}
+
+header div {
+    width: 1086px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(172, 155, 155);
+}
+
+
+
+
+
+span a {
+    margin-left: 5px;
+    color: #e6e6fa;
+    text-decoration: none;
+}
+
+span a:hover {
+   color:#E7A1B0;
+    background-color: rgb(95, 84, 84);
+}
+
+
+
+#div main {
+    background-color: rgb(242, 247, 247);
+}
+
+main aside {
+    width: 210px;
+    float: right;
+    background-color:#F5F5F5;
+    position: relative;
+	height:533px;
+	right:7.2%;
+	border:solid #B9B9B9;
+	
+}
+
+section {
+    width: 950px;
+    float: left;
+    border-right: 1px solid hsl(0, 22%, 90%);
+    background-color:snow;
+	height:543px;
+	
+}
+
+article {
+    clear: both; 
+    width: 100%;
+     padding:6px;	
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 11px;
+    border: 3px solid #eeeeee;
+}
+
+figcaption {
+    text-align: left;
+}
+
+img {
+    width: 300px;
+    height: 180px;
+}
+
+img.SMlogo {
+    width: 50px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
+
+aside div {
+    margin-left:5%;
+    width: 100%;
+    height: 550px;
+    float: left;
+	height:266px;
+		left:40%;
+		
+}
+
+
+aside div a {
+    display: block;
+    padding: 10px;
+    width: 300px;
+
+
+}
+aside{height:100%;
+      padding:3px;
+	  margin-right:27px;
+	  width: 78%;
+      float: left;}
+
+ h2, h3, h4 {
+    font-weight: italic;
+    color: #4A3928;
+}
+
+h2 {
+    margin: 10px 0px 5px 1px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #9A8B7B;
+}
+
+footer {
+       width: 1086px;
+    margin-left:91px;
+    margin-right: 25px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    height: 35px;
+	background-color: rgb(172, 155, 155);
+	color:white;
+
+}
+.oooi {
+    border-radius: 50%;
+}
+#h1{
+	 font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+	color:#9370DB;
+	text-shadow:2px 3px 4px gray;
+}
+
+#1{
+    width: 950px;
+    height: 500px;
+    float: center;
+    border-right: 1px solid hsl(0, 22%, 90%);
+    background-color: hsl(0, 24%, 96%);
+}
+
+#dd{
+position:relative;
+left:30%;	
+width:158px;
+height:178px;
+}
+a{text-decoration: none;}
+#d2{
+	float:left;
+	position:relative;
+	border: dashed #9370DB;
+	left:20%;
+    text-align:center;
+    color:#9494b8;
+    margin:25px;
+	padding:4px;
+}
+
+#d3{
+	float:right;
+	position:relative;
+	right:90%;
+	left:-10%;
+	color:#9494b8;
+	border: dashed #9370DB;
+	margin:25px;
+    text-align:center;
+	padding:4px;
+}
+#set2{height:492px;}
+
+#3{ width:800; height:600;}
+
+#1{top:10%;}
+#card{width:300px;
+      height:350px;
+	  box-shadow:  12px 12px 5px 3px rgba(6, 6, 143, .2);
+	  transition:transform 1s;
+	  border:soft;
+	  position:relative;
+	  float:left;
+	  text-align:center;
+	  left:30%;
+      margin:25px;
+	  padding:4px;
+	  top:8%;
+	  color:gray;
+	  border-style:  ridge;
+	  background-image: url('https://image.freepik.com/free-photo/pink-cloth-background_46250-2399.jpg');
+	  border-radius: 11px;
+	  }
+	  #front{
+		  width:100%;
+		  height:93%;
+          background-image: url('https://image.freepik.com/free-photo/pink-cloth-background_46250-2399.jpg');
+		  
+	  
+	  }
+	  #back{
+	width:100%;
+	height:100%;
+	text-align:center;
+	color:white;
+	font-family:verdana;
+	font-weight:bold;
+	background-color:teal;
+	display:none;
+	transform:rotatey(180deg);
+	}
+		
+#card:hover #front{display:none;}
+#card:hover #back{display:block;}
+#card:hover{transform:rotateY(180deg);}
+ 
+.font3{color:#696557;
+font-size:17px;}
+
